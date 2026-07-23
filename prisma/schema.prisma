@@ -1,0 +1,78 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AuthToken {
+  id           String   @id @unique @default(uuid())
+  refreshToken String
+  createdAt    DateTime @default(now())
+}
+
+model User {
+  id           String  @id @unique @default(uuid())
+  email        String  @unique
+  latitude     Float   @default(0.0)
+  longitude    Float   @default(0.0)
+  customerId   String  @default(" ")
+  menus        Menu[]
+  isAggent     Boolean @default(false)
+  nameOffAgnet String  @default(" ")
+  isOwner      Boolean @default(false)
+  // Onboarding fields
+  restaurantName       String?
+  ownerIdNumber        String?
+  foodInspectionNumber String?
+  foodInspectionDate   String?
+  agreedToTerms        Boolean @default(false)
+}
+
+model Restorant {
+  id            String @id @unique @default(uuid())
+  restorantName String
+  description   String
+  streetAddress String
+  city          String
+  state         String
+  zipCode       String
+  menus         Menu[] // One-to-many relationship with Menu
+}
+
+model Menu {
+  id          String    @id @unique @default(uuid())
+  videoUrl    String
+  description String
+  userId      String
+  price       Float
+  user        User      @relation(fields: [userId], references: [id])
+  orders      Order[]
+  restorantId String    @default("17e4d7f2-2ae9-4e20-83ef-1a8e30786076") // Set the default value
+  restorant   Restorant @relation(fields: [restorantId], references: [id])
+  dish        String    @default(" ")
+}
+
+model Order {
+  id        String   @id @unique @default(uuid())
+  location  String
+  menuId    String
+  menu      Menu     @relation(fields: [menuId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model CampaignMetrics {
+  id          String   @id @unique @default(uuid())
+  campaignId  String
+  impressions Int
+  clicks      Int
+  cost        Float
+  conversions Int
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

@@ -1,0 +1,3352 @@
+[
+  {
+    "id": 1,
+    "name": "Bob Smith",
+    "email": "user1@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=1",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Bob Smith is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2023-04-01"
+  },
+  {
+    "id": 2,
+    "name": "Charlie Brown",
+    "email": "user2@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=2",
+    "agency": "User Engagement Division",
+    "description": "Charlie Brown is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "Berlin",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-01-24"
+  },
+  {
+    "id": 3,
+    "name": "Diana Prince",
+    "email": "user3@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=3",
+    "agency": "Moderation Oversight Unit",
+    "description": "Diana Prince is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Finance",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-03-19"
+  },
+  {
+    "id": 4,
+    "name": "Ethan Hunt",
+    "email": "user4@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=4",
+    "agency": "Agency of Admin Affairs",
+    "description": "Ethan Hunt is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Product",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-04-15"
+  },
+  {
+    "id": 5,
+    "name": "Fiona Gallagher",
+    "email": "user5@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Fiona Gallagher is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-05-27"
+  },
+  {
+    "id": 6,
+    "name": "George Miller",
+    "email": "user6@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=6",
+    "agency": "User Engagement Division",
+    "description": "George Miller is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Operations",
+    "location": "New York",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-08-05"
+  },
+  {
+    "id": 7,
+    "name": "Hannah Lee",
+    "email": "user7@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=7",
+    "agency": "Moderation Oversight Unit",
+    "description": "Hannah Lee is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Design",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-04-06"
+  },
+  {
+    "id": 8,
+    "name": "Ian Curtis",
+    "email": "user8@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=8",
+    "agency": "Agency of Admin Affairs",
+    "description": "Ian Curtis is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Engineering",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-06-16"
+  },
+  {
+    "id": 9,
+    "name": "Julia Roberts",
+    "email": "user9@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=9",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Julia Roberts is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-07-14"
+  },
+  {
+    "id": 10,
+    "name": "Kevin Spacey",
+    "email": "user10@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=10",
+    "agency": "User Engagement Division",
+    "description": "Kevin Spacey is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Marketing",
+    "location": "New York",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2020-02-15"
+  },
+  {
+    "id": 11,
+    "name": "Laura Palmer",
+    "email": "user11@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=11",
+    "agency": "Moderation Oversight Unit",
+    "description": "Laura Palmer is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Legal",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-06-18"
+  },
+  {
+    "id": 12,
+    "name": "Michael Scott",
+    "email": "user12@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "agency": "Agency of Admin Affairs",
+    "description": "Michael Scott is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Legal",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-07-30"
+  },
+  {
+    "id": 13,
+    "name": "Nina Williams",
+    "email": "user13@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=13",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Nina Williams is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "HR",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2018-05-16"
+  },
+  {
+    "id": 14,
+    "name": "Oscar Wilde",
+    "email": "user14@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=14",
+    "agency": "User Engagement Division",
+    "description": "Oscar Wilde is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Sales",
+    "location": "Dubai",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-02-17"
+  },
+  {
+    "id": 15,
+    "name": "Paula Abdul",
+    "email": "user15@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=15",
+    "agency": "Moderation Oversight Unit",
+    "description": "Paula Abdul is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-06-21"
+  },
+  {
+    "id": 16,
+    "name": "Quincy Adams",
+    "email": "user16@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=16",
+    "agency": "Agency of Admin Affairs",
+    "description": "Quincy Adams is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-04-27"
+  },
+  {
+    "id": 17,
+    "name": "Rachel Green",
+    "email": "user17@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=17",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Rachel Green is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Marketing",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-03-18"
+  },
+  {
+    "id": 18,
+    "name": "Sam Winchester",
+    "email": "user18@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=18",
+    "agency": "User Engagement Division",
+    "description": "Sam Winchester is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Operations",
+    "location": "Toronto",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-08-08"
+  },
+  {
+    "id": 19,
+    "name": "Tina Turner",
+    "email": "user19@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=19",
+    "agency": "Moderation Oversight Unit",
+    "description": "Tina Turner is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Finance",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-02-01"
+  },
+  {
+    "id": 20,
+    "name": "Uma Thurman",
+    "email": "user20@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=20",
+    "agency": "Agency of Admin Affairs",
+    "description": "Uma Thurman is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Product",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-02-18"
+  },
+  {
+    "id": 21,
+    "name": "Victor Hugo",
+    "email": "user21@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=21",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Victor Hugo is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "HR",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-01-17"
+  },
+  {
+    "id": 22,
+    "name": "Wendy Darling",
+    "email": "user22@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=22",
+    "agency": "User Engagement Division",
+    "description": "Wendy Darling is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Marketing",
+    "location": "Berlin",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-09-11"
+  },
+  {
+    "id": 23,
+    "name": "Xander Harris",
+    "email": "user23@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=23",
+    "agency": "Moderation Oversight Unit",
+    "description": "Xander Harris is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Finance",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2019-03-24"
+  },
+  {
+    "id": 24,
+    "name": "Yara Shahidi",
+    "email": "user24@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=24",
+    "agency": "Agency of Admin Affairs",
+    "description": "Yara Shahidi is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Sales",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-10-14"
+  },
+  {
+    "id": 25,
+    "name": "Zack Morris",
+    "email": "user25@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=25",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Zack Morris is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Support",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-04-06"
+  },
+  {
+    "id": 26,
+    "name": "Amber Heard",
+    "email": "user26@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=26",
+    "agency": "User Engagement Division",
+    "description": "Amber Heard is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Operations",
+    "location": "New York",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2023-04-11"
+  },
+  {
+    "id": 27,
+    "name": "Bruce Wayne",
+    "email": "user27@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=27",
+    "agency": "Moderation Oversight Unit",
+    "description": "Bruce Wayne is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Legal",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2018-04-01"
+  },
+  {
+    "id": 28,
+    "name": "Clark Kent",
+    "email": "user28@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=28",
+    "agency": "Agency of Admin Affairs",
+    "description": "Clark Kent is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Support",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-03-15"
+  },
+  {
+    "id": 29,
+    "name": "Donna Paulsen",
+    "email": "user29@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=29",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Donna Paulsen is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Design",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-08-20"
+  },
+  {
+    "id": 30,
+    "name": "Elliot Alderson",
+    "email": "user30@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=30",
+    "agency": "User Engagement Division",
+    "description": "Elliot Alderson is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Sales",
+    "location": "London",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-06-17"
+  },
+  {
+    "id": 31,
+    "name": "Felicity Smoak",
+    "email": "user31@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=31",
+    "agency": "Moderation Oversight Unit",
+    "description": "Felicity Smoak is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2019-04-05"
+  },
+  {
+    "id": 32,
+    "name": "Gordon Ramsay",
+    "email": "user32@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=32",
+    "agency": "Agency of Admin Affairs",
+    "description": "Gordon Ramsay is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Engineering",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-07-20"
+  },
+  {
+    "id": 33,
+    "name": "Hermione Granger",
+    "email": "user33@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=33",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Hermione Granger is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Design",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2018-04-06"
+  },
+  {
+    "id": 34,
+    "name": "Indiana Jones",
+    "email": "user34@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=34",
+    "agency": "User Engagement Division",
+    "description": "Indiana Jones is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Engineering",
+    "location": "New York",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-11-25"
+  },
+  {
+    "id": 35,
+    "name": "Jack Sparrow",
+    "email": "user35@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=35",
+    "agency": "Moderation Oversight Unit",
+    "description": "Jack Sparrow is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Engineering",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2019-08-27"
+  },
+  {
+    "id": 36,
+    "name": "Katniss Everdeen",
+    "email": "user36@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=36",
+    "agency": "Agency of Admin Affairs",
+    "description": "Katniss Everdeen is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Operations",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2023-06-11"
+  },
+  {
+    "id": 37,
+    "name": "Lara Croft",
+    "email": "user37@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=37",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Lara Croft is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Product",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-01-12"
+  },
+  {
+    "id": 38,
+    "name": "Marty McFly",
+    "email": "user38@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=38",
+    "agency": "User Engagement Division",
+    "description": "Marty McFly is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "San Francisco",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-10-10"
+  },
+  {
+    "id": 39,
+    "name": "Neo Anderson",
+    "email": "user39@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=39",
+    "agency": "Moderation Oversight Unit",
+    "description": "Neo Anderson is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "HR",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-06-28"
+  },
+  {
+    "id": 40,
+    "name": "Olivia Pope",
+    "email": "user40@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=40",
+    "agency": "Agency of Admin Affairs",
+    "description": "Olivia Pope is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Legal",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2021-03-07"
+  },
+  {
+    "id": 41,
+    "name": "Peter Parker",
+    "email": "user41@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=41",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Peter Parker is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Marketing",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-07-15"
+  },
+  {
+    "id": 42,
+    "name": "Queen Elsa",
+    "email": "user42@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=42",
+    "agency": "User Engagement Division",
+    "description": "Queen Elsa is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Operations",
+    "location": "New York",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-09-22"
+  },
+  {
+    "id": 43,
+    "name": "Ron Weasley",
+    "email": "user43@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=43",
+    "agency": "Moderation Oversight Unit",
+    "description": "Ron Weasley is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Sales",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2018-08-28"
+  },
+  {
+    "id": 44,
+    "name": "Steve Rogers",
+    "email": "user44@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=44",
+    "agency": "Agency of Admin Affairs",
+    "description": "Steve Rogers is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Engineering",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-06-21"
+  },
+  {
+    "id": 45,
+    "name": "Tony Stark",
+    "email": "user45@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=45",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Tony Stark is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-09-25"
+  },
+  {
+    "id": 46,
+    "name": "Ursula K. Le Guin",
+    "email": "user46@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=46",
+    "agency": "User Engagement Division",
+    "description": "Ursula K. Le Guin is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Marketing",
+    "location": "Toronto",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-08-29"
+  },
+  {
+    "id": 47,
+    "name": "Voldemort Riddle",
+    "email": "user47@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=47",
+    "agency": "Moderation Oversight Unit",
+    "description": "Voldemort Riddle is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Finance",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-04-15"
+  },
+  {
+    "id": 48,
+    "name": "Wade Wilson",
+    "email": "user48@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=48",
+    "agency": "Agency of Admin Affairs",
+    "description": "Wade Wilson is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Operations",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2021-06-05"
+  },
+  {
+    "id": 49,
+    "name": "Xena Warrior",
+    "email": "user49@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=49",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Xena Warrior is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Engineering",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-05-31"
+  },
+  {
+    "id": 50,
+    "name": "Yvonne Strahovski",
+    "email": "user50@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=50",
+    "agency": "User Engagement Division",
+    "description": "Yvonne Strahovski is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "San Francisco",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2023-02-13"
+  },
+  {
+    "id": 51,
+    "name": "Zoe Saldana",
+    "email": "user51@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=51",
+    "agency": "Moderation Oversight Unit",
+    "description": "Zoe Saldana is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Sales",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-01-05"
+  },
+  {
+    "id": 52,
+    "name": "Aaron Paul",
+    "email": "user52@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=52",
+    "agency": "Agency of Admin Affairs",
+    "description": "Aaron Paul is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Sales",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-07-04"
+  },
+  {
+    "id": 53,
+    "name": "Bella Swan",
+    "email": "user53@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=53",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Bella Swan is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-12-15"
+  },
+  {
+    "id": 54,
+    "name": "Chris Evans",
+    "email": "user54@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=54",
+    "agency": "User Engagement Division",
+    "description": "Chris Evans is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Sales",
+    "location": "London",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2020-01-24"
+  },
+  {
+    "id": 55,
+    "name": "Dakota Johnson",
+    "email": "user55@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=55",
+    "agency": "Moderation Oversight Unit",
+    "description": "Dakota Johnson is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Design",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2018-02-14"
+  },
+  {
+    "id": 56,
+    "name": "Edward Norton",
+    "email": "user56@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=56",
+    "agency": "Agency of Admin Affairs",
+    "description": "Edward Norton is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-05-05"
+  },
+  {
+    "id": 57,
+    "name": "Freya Allan",
+    "email": "user57@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=57",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Freya Allan is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-01-23"
+  },
+  {
+    "id": 58,
+    "name": "Gina Torres",
+    "email": "user58@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=58",
+    "agency": "User Engagement Division",
+    "description": "Gina Torres is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Sydney",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-12-30"
+  },
+  {
+    "id": 59,
+    "name": "Harry Potter",
+    "email": "user59@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=59",
+    "agency": "Moderation Oversight Unit",
+    "description": "Harry Potter is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Legal",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2023-04-01"
+  },
+  {
+    "id": 60,
+    "name": "Isla Fisher",
+    "email": "user60@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=60",
+    "agency": "Agency of Admin Affairs",
+    "description": "Isla Fisher is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Legal",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-04-07"
+  },
+  {
+    "id": 61,
+    "name": "James Bond",
+    "email": "user61@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=61",
+    "agency": "Managerial Strategy Bureau",
+    "description": "James Bond is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-06-12"
+  },
+  {
+    "id": 62,
+    "name": "Kylie Jenner",
+    "email": "user62@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=62",
+    "agency": "User Engagement Division",
+    "description": "Kylie Jenner is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Design",
+    "location": "Paris",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-02-07"
+  },
+  {
+    "id": 63,
+    "name": "Leonardo DiCaprio",
+    "email": "user63@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=63",
+    "agency": "Moderation Oversight Unit",
+    "description": "Leonardo DiCaprio is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Finance",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-07-13"
+  },
+  {
+    "id": 64,
+    "name": "Megan Fox",
+    "email": "user64@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=64",
+    "agency": "Agency of Admin Affairs",
+    "description": "Megan Fox is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Engineering",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-04-23"
+  },
+  {
+    "id": 65,
+    "name": "Noah Centineo",
+    "email": "user65@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=65",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Noah Centineo is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Support",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-07-28"
+  },
+  {
+    "id": 66,
+    "name": "Oprah Winfrey",
+    "email": "user66@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=66",
+    "agency": "User Engagement Division",
+    "description": "Oprah Winfrey is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Design",
+    "location": "Sydney",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-11-10"
+  },
+  {
+    "id": 67,
+    "name": "Paul Rudd",
+    "email": "user67@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=67",
+    "agency": "Moderation Oversight Unit",
+    "description": "Paul Rudd is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Engineering",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2018-09-02"
+  },
+  {
+    "id": 68,
+    "name": "Quentin Tarantino",
+    "email": "user68@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=68",
+    "agency": "Agency of Admin Affairs",
+    "description": "Quentin Tarantino is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Sales",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-12-08"
+  },
+  {
+    "id": 69,
+    "name": "Rihanna Fenty",
+    "email": "user69@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=69",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Rihanna Fenty is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Sales",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2023-01-05"
+  },
+  {
+    "id": 70,
+    "name": "Selena Gomez",
+    "email": "user70@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=70",
+    "agency": "User Engagement Division",
+    "description": "Selena Gomez is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Berlin",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-02-18"
+  },
+  {
+    "id": 71,
+    "name": "Tom Holland",
+    "email": "user71@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=71",
+    "agency": "Moderation Oversight Unit",
+    "description": "Tom Holland is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Engineering",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-01-15"
+  },
+  {
+    "id": 72,
+    "name": "Uzo Aduba",
+    "email": "user72@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=72",
+    "agency": "Agency of Admin Affairs",
+    "description": "Uzo Aduba is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Engineering",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-05-19"
+  },
+  {
+    "id": 73,
+    "name": "Vin Diesel",
+    "email": "user73@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=73",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Vin Diesel is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Product",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-10-08"
+  },
+  {
+    "id": 74,
+    "name": "Will Smith",
+    "email": "user74@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=74",
+    "agency": "User Engagement Division",
+    "description": "Will Smith is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "Paris",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-12-26"
+  },
+  {
+    "id": 75,
+    "name": "Xochitl Gomez",
+    "email": "user75@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=75",
+    "agency": "Moderation Oversight Unit",
+    "description": "Xochitl Gomez is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Sales",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-12-06"
+  },
+  {
+    "id": 76,
+    "name": "Yara Greyjoy",
+    "email": "user76@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=76",
+    "agency": "Agency of Admin Affairs",
+    "description": "Yara Greyjoy is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Sales",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-02-12"
+  },
+  {
+    "id": 77,
+    "name": "Zendaya Coleman",
+    "email": "user77@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=77",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Zendaya Coleman is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-06-30"
+  },
+  {
+    "id": 78,
+    "name": "Adam Driver",
+    "email": "user78@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=78",
+    "agency": "User Engagement Division",
+    "description": "Adam Driver is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Engineering",
+    "location": "Tokyo",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-06-29"
+  },
+  {
+    "id": 79,
+    "name": "Ben Affleck",
+    "email": "user79@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=79",
+    "agency": "Moderation Oversight Unit",
+    "description": "Ben Affleck is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Marketing",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2023-05-07"
+  },
+  {
+    "id": 80,
+    "name": "Cillian Murphy",
+    "email": "user80@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=80",
+    "agency": "Agency of Admin Affairs",
+    "description": "Cillian Murphy is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "HR",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2021-04-11"
+  },
+  {
+    "id": 81,
+    "name": "Daniel Radcliffe",
+    "email": "user81@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=81",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Daniel Radcliffe is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Design",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2018-10-26"
+  },
+  {
+    "id": 82,
+    "name": "Emma Watson",
+    "email": "user82@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=82",
+    "agency": "User Engagement Division",
+    "description": "Emma Watson is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "New York",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-02-17"
+  },
+  {
+    "id": 83,
+    "name": "Florence Pugh",
+    "email": "user83@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=83",
+    "agency": "Moderation Oversight Unit",
+    "description": "Florence Pugh is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Engineering",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2023-05-21"
+  },
+  {
+    "id": 84,
+    "name": "Gal Gadot",
+    "email": "user84@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=84",
+    "agency": "Agency of Admin Affairs",
+    "description": "Gal Gadot is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "HR",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-11-10"
+  },
+  {
+    "id": 85,
+    "name": "Heath Ledger",
+    "email": "user85@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=85",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Heath Ledger is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Product",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-07-31"
+  },
+  {
+    "id": 86,
+    "name": "Idris Elba",
+    "email": "user86@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=86",
+    "agency": "User Engagement Division",
+    "description": "Idris Elba is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Legal",
+    "location": "Berlin",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-04-29"
+  },
+  {
+    "id": 87,
+    "name": "Jennifer Lawrence",
+    "email": "user87@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=87",
+    "agency": "Moderation Oversight Unit",
+    "description": "Jennifer Lawrence is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Legal",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2021-12-13"
+  },
+  {
+    "id": 88,
+    "name": "Keanu Reeves",
+    "email": "user88@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=88",
+    "agency": "Agency of Admin Affairs",
+    "description": "Keanu Reeves is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-04-07"
+  },
+  {
+    "id": 89,
+    "name": "Liam Neeson",
+    "email": "user89@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=89",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Liam Neeson is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "HR",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-04-10"
+  },
+  {
+    "id": 90,
+    "name": "Margot Robbie",
+    "email": "user90@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=90",
+    "agency": "User Engagement Division",
+    "description": "Margot Robbie is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Legal",
+    "location": "Sydney",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-01-03"
+  },
+  {
+    "id": 91,
+    "name": "Natalie Portman",
+    "email": "user91@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=91",
+    "agency": "Moderation Oversight Unit",
+    "description": "Natalie Portman is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Marketing",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-02-08"
+  },
+  {
+    "id": 92,
+    "name": "Orlando Bloom",
+    "email": "user92@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=92",
+    "agency": "Agency of Admin Affairs",
+    "description": "Orlando Bloom is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-08-05"
+  },
+  {
+    "id": 93,
+    "name": "Penelope Cruz",
+    "email": "user93@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=93",
+    "agency": "Managerial Strategy Bureau",
+    "description": "Penelope Cruz is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-11-03"
+  },
+  {
+    "id": 94,
+    "name": "Robert Downey Jr.",
+    "email": "user94@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=94",
+    "agency": "User Engagement Division",
+    "description": "Robert Downey Jr. is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Marketing",
+    "location": "Dubai",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2020-05-03"
+  },
+  {
+    "id": 95,
+    "name": "Alice Johnson",
+    "email": "user95@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=95",
+    "agency": "Moderation Oversight Unit",
+    "description": "Alice Johnson is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Sales",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2021-01-19"
+  },
+  {
+    "id": 96,
+    "name": "User 96",
+    "email": "user96@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=96",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 96 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-12-12"
+  },
+  {
+    "id": 97,
+    "name": "User 97",
+    "email": "user97@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=97",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 97 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Support",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-12-21"
+  },
+  {
+    "id": 98,
+    "name": "User 98",
+    "email": "user98@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=98",
+    "agency": "User Engagement Division",
+    "description": "User 98 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Engineering",
+    "location": "Berlin",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-08-29"
+  },
+  {
+    "id": 99,
+    "name": "User 99",
+    "email": "user99@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=99",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 99 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-09-23"
+  },
+  {
+    "id": 100,
+    "name": "User 100",
+    "email": "user100@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=100",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 100 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Sales",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2021-02-28"
+  },
+  {
+    "id": 101,
+    "name": "User 101",
+    "email": "user101@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=101",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 101 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "HR",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-12-07"
+  },
+  {
+    "id": 102,
+    "name": "User 102",
+    "email": "user102@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=102",
+    "agency": "User Engagement Division",
+    "description": "User 102 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "HR",
+    "location": "London",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-05-22"
+  },
+  {
+    "id": 103,
+    "name": "User 103",
+    "email": "user103@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=103",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 103 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Marketing",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-07-15"
+  },
+  {
+    "id": 104,
+    "name": "User 104",
+    "email": "user104@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=104",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 104 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Engineering",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2023-03-02"
+  },
+  {
+    "id": 105,
+    "name": "User 105",
+    "email": "user105@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=105",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 105 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-02-06"
+  },
+  {
+    "id": 106,
+    "name": "User 106",
+    "email": "user106@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=106",
+    "agency": "User Engagement Division",
+    "description": "User 106 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Engineering",
+    "location": "Paris",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-11-21"
+  },
+  {
+    "id": 107,
+    "name": "User 107",
+    "email": "user107@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=107",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 107 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-05-13"
+  },
+  {
+    "id": 108,
+    "name": "User 108",
+    "email": "user108@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=108",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 108 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Support",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2021-01-07"
+  },
+  {
+    "id": 109,
+    "name": "User 109",
+    "email": "user109@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=109",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 109 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Design",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-03-26"
+  },
+  {
+    "id": 110,
+    "name": "User 110",
+    "email": "user110@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=110",
+    "agency": "User Engagement Division",
+    "description": "User 110 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Operations",
+    "location": "Singapore",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2020-04-03"
+  },
+  {
+    "id": 111,
+    "name": "User 111",
+    "email": "user111@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=111",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 111 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2021-03-11"
+  },
+  {
+    "id": 112,
+    "name": "User 112",
+    "email": "user112@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=112",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 112 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Finance",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-11-18"
+  },
+  {
+    "id": 113,
+    "name": "User 113",
+    "email": "user113@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=113",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 113 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Design",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2023-06-13"
+  },
+  {
+    "id": 114,
+    "name": "User 114",
+    "email": "user114@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=114",
+    "agency": "User Engagement Division",
+    "description": "User 114 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "London",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-06-09"
+  },
+  {
+    "id": 115,
+    "name": "User 115",
+    "email": "user115@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=115",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 115 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Finance",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-02-16"
+  },
+  {
+    "id": 116,
+    "name": "User 116",
+    "email": "user116@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=116",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 116 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "HR",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-06-24"
+  },
+  {
+    "id": 117,
+    "name": "User 117",
+    "email": "user117@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=117",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 117 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Support",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-12-14"
+  },
+  {
+    "id": 118,
+    "name": "User 118",
+    "email": "user118@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=118",
+    "agency": "User Engagement Division",
+    "description": "User 118 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "HR",
+    "location": "Paris",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-11-19"
+  },
+  {
+    "id": 119,
+    "name": "User 119",
+    "email": "user119@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=119",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 119 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Legal",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-07-17"
+  },
+  {
+    "id": 120,
+    "name": "User 120",
+    "email": "user120@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=120",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 120 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Design",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-01-14"
+  },
+  {
+    "id": 121,
+    "name": "User 121",
+    "email": "user121@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=121",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 121 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Finance",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-05-24"
+  },
+  {
+    "id": 122,
+    "name": "User 122",
+    "email": "user122@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=122",
+    "agency": "User Engagement Division",
+    "description": "User 122 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Marketing",
+    "location": "Dubai",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-04-07"
+  },
+  {
+    "id": 123,
+    "name": "User 123",
+    "email": "user123@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=123",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 123 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Legal",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2018-04-27"
+  },
+  {
+    "id": 124,
+    "name": "User 124",
+    "email": "user124@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=124",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 124 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Product",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-10-29"
+  },
+  {
+    "id": 125,
+    "name": "User 125",
+    "email": "user125@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=125",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 125 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Product",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-06-04"
+  },
+  {
+    "id": 126,
+    "name": "User 126",
+    "email": "user126@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=126",
+    "agency": "User Engagement Division",
+    "description": "User 126 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "HR",
+    "location": "San Francisco",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-02-07"
+  },
+  {
+    "id": 127,
+    "name": "User 127",
+    "email": "user127@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=127",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 127 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "HR",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2019-06-30"
+  },
+  {
+    "id": 128,
+    "name": "User 128",
+    "email": "user128@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=128",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 128 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Engineering",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-07-13"
+  },
+  {
+    "id": 129,
+    "name": "User 129",
+    "email": "user129@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=129",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 129 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-07-10"
+  },
+  {
+    "id": 130,
+    "name": "User 130",
+    "email": "user130@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=130",
+    "agency": "User Engagement Division",
+    "description": "User 130 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Paris",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-05-26"
+  },
+  {
+    "id": 131,
+    "name": "User 131",
+    "email": "user131@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=131",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 131 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Finance",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-02-02"
+  },
+  {
+    "id": 132,
+    "name": "User 132",
+    "email": "user132@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=132",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 132 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-07-27"
+  },
+  {
+    "id": 133,
+    "name": "User 133",
+    "email": "user133@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=133",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 133 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-11-06"
+  },
+  {
+    "id": 134,
+    "name": "User 134",
+    "email": "user134@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=134",
+    "agency": "User Engagement Division",
+    "description": "User 134 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Engineering",
+    "location": "Berlin",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-04-16"
+  },
+  {
+    "id": 135,
+    "name": "User 135",
+    "email": "user135@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=135",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 135 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Engineering",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2019-08-25"
+  },
+  {
+    "id": 136,
+    "name": "User 136",
+    "email": "user136@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=136",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 136 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "HR",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2021-04-13"
+  },
+  {
+    "id": 137,
+    "name": "User 137",
+    "email": "user137@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=137",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 137 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Product",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2018-08-25"
+  },
+  {
+    "id": 138,
+    "name": "User 138",
+    "email": "user138@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=138",
+    "agency": "User Engagement Division",
+    "description": "User 138 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "Dubai",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-02-22"
+  },
+  {
+    "id": 139,
+    "name": "User 139",
+    "email": "user139@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=139",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 139 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Design",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2019-03-06"
+  },
+  {
+    "id": 140,
+    "name": "User 140",
+    "email": "user140@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=140",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 140 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "HR",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-01-09"
+  },
+  {
+    "id": 141,
+    "name": "User 141",
+    "email": "user141@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=141",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 141 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Design",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-04-30"
+  },
+  {
+    "id": 142,
+    "name": "User 142",
+    "email": "user142@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=142",
+    "agency": "User Engagement Division",
+    "description": "User 142 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Sales",
+    "location": "Berlin",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-01-29"
+  },
+  {
+    "id": 143,
+    "name": "User 143",
+    "email": "user143@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=143",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 143 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-04-13"
+  },
+  {
+    "id": 144,
+    "name": "User 144",
+    "email": "user144@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=144",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 144 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Support",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-08-11"
+  },
+  {
+    "id": 145,
+    "name": "User 145",
+    "email": "user145@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=145",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 145 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Marketing",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2019-10-23"
+  },
+  {
+    "id": 146,
+    "name": "User 146",
+    "email": "user146@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=146",
+    "agency": "User Engagement Division",
+    "description": "User 146 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Tokyo",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-10-26"
+  },
+  {
+    "id": 147,
+    "name": "User 147",
+    "email": "user147@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=147",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 147 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Legal",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2018-02-08"
+  },
+  {
+    "id": 148,
+    "name": "User 148",
+    "email": "user148@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=148",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 148 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Sales",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-05-24"
+  },
+  {
+    "id": 149,
+    "name": "User 149",
+    "email": "user149@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=149",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 149 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Marketing",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-06-15"
+  },
+  {
+    "id": 150,
+    "name": "User 150",
+    "email": "user150@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=150",
+    "agency": "User Engagement Division",
+    "description": "User 150 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "Dubai",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-10-23"
+  },
+  {
+    "id": 151,
+    "name": "User 151",
+    "email": "user151@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=151",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 151 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Design",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-01-05"
+  },
+  {
+    "id": 152,
+    "name": "User 152",
+    "email": "user152@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=152",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 152 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Sales",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-07-03"
+  },
+  {
+    "id": 153,
+    "name": "User 153",
+    "email": "user153@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=153",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 153 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Engineering",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-08-08"
+  },
+  {
+    "id": 154,
+    "name": "User 154",
+    "email": "user154@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=154",
+    "agency": "User Engagement Division",
+    "description": "User 154 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Tokyo",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-05-25"
+  },
+  {
+    "id": 155,
+    "name": "User 155",
+    "email": "user155@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=155",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 155 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Marketing",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-06-10"
+  },
+  {
+    "id": 156,
+    "name": "User 156",
+    "email": "user156@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=156",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 156 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Operations",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-06-16"
+  },
+  {
+    "id": 157,
+    "name": "User 157",
+    "email": "user157@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=157",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 157 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Sales",
+    "location": "Dubai",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-12-14"
+  },
+  {
+    "id": 158,
+    "name": "User 158",
+    "email": "user158@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=158",
+    "agency": "User Engagement Division",
+    "description": "User 158 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "Dubai",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-05-01"
+  },
+  {
+    "id": 159,
+    "name": "User 159",
+    "email": "user159@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=159",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 159 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-02-23"
+  },
+  {
+    "id": 160,
+    "name": "User 160",
+    "email": "user160@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=160",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 160 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Legal",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-08-05"
+  },
+  {
+    "id": 161,
+    "name": "User 161",
+    "email": "user161@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=161",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 161 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-08-08"
+  },
+  {
+    "id": 162,
+    "name": "User 162",
+    "email": "user162@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=162",
+    "agency": "User Engagement Division",
+    "description": "User 162 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Paris",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2023-06-12"
+  },
+  {
+    "id": 163,
+    "name": "User 163",
+    "email": "user163@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=163",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 163 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Operations",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-01-06"
+  },
+  {
+    "id": 164,
+    "name": "User 164",
+    "email": "user164@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=164",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 164 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-03-24"
+  },
+  {
+    "id": 165,
+    "name": "User 165",
+    "email": "user165@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=165",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 165 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "HR",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-03-10"
+  },
+  {
+    "id": 166,
+    "name": "User 166",
+    "email": "user166@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=166",
+    "agency": "User Engagement Division",
+    "description": "User 166 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Singapore",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-05-07"
+  },
+  {
+    "id": 167,
+    "name": "User 167",
+    "email": "user167@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=167",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 167 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Sales",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2018-04-14"
+  },
+  {
+    "id": 168,
+    "name": "User 168",
+    "email": "user168@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=168",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 168 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-08-23"
+  },
+  {
+    "id": 169,
+    "name": "User 169",
+    "email": "user169@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=169",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 169 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-02-03"
+  },
+  {
+    "id": 170,
+    "name": "User 170",
+    "email": "user170@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=170",
+    "agency": "User Engagement Division",
+    "description": "User 170 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Legal",
+    "location": "London",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-09-10"
+  },
+  {
+    "id": 171,
+    "name": "User 171",
+    "email": "user171@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=171",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 171 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Engineering",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2019-07-27"
+  },
+  {
+    "id": 172,
+    "name": "User 172",
+    "email": "user172@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=172",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 172 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Finance",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-03-31"
+  },
+  {
+    "id": 173,
+    "name": "User 173",
+    "email": "user173@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=173",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 173 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Design",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-01-07"
+  },
+  {
+    "id": 174,
+    "name": "User 174",
+    "email": "user174@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=174",
+    "agency": "User Engagement Division",
+    "description": "User 174 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "HR",
+    "location": "San Francisco",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2022-11-26"
+  },
+  {
+    "id": 175,
+    "name": "User 175",
+    "email": "user175@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=175",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 175 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Support",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2021-01-29"
+  },
+  {
+    "id": 176,
+    "name": "User 176",
+    "email": "user176@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=176",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 176 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Marketing",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-10-30"
+  },
+  {
+    "id": 177,
+    "name": "User 177",
+    "email": "user177@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=177",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 177 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2020-09-01"
+  },
+  {
+    "id": 178,
+    "name": "User 178",
+    "email": "user178@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=178",
+    "agency": "User Engagement Division",
+    "description": "User 178 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Engineering",
+    "location": "New York",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-01-24"
+  },
+  {
+    "id": 179,
+    "name": "User 179",
+    "email": "user179@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=179",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 179 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2021-02-11"
+  },
+  {
+    "id": 180,
+    "name": "User 180",
+    "email": "user180@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=180",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 180 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Product",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-05-19"
+  },
+  {
+    "id": 181,
+    "name": "User 181",
+    "email": "user181@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=181",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 181 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-07-05"
+  },
+  {
+    "id": 182,
+    "name": "User 182",
+    "email": "user182@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=182",
+    "agency": "User Engagement Division",
+    "description": "User 182 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Finance",
+    "location": "Singapore",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-04-14"
+  },
+  {
+    "id": 183,
+    "name": "User 183",
+    "email": "user183@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=183",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 183 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Finance",
+    "location": "New York",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2021-06-03"
+  },
+  {
+    "id": 184,
+    "name": "User 184",
+    "email": "user184@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=184",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 184 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Engineering",
+    "location": "San Francisco",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2018-12-26"
+  },
+  {
+    "id": 185,
+    "name": "User 185",
+    "email": "user185@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=185",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 185 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Support",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2022-06-28"
+  },
+  {
+    "id": 186,
+    "name": "User 186",
+    "email": "user186@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=186",
+    "agency": "User Engagement Division",
+    "description": "User 186 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Tokyo",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-06-19"
+  },
+  {
+    "id": 187,
+    "name": "User 187",
+    "email": "user187@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=187",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 187 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Operations",
+    "location": "London",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-01-13"
+  },
+  {
+    "id": 188,
+    "name": "User 188",
+    "email": "user188@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=188",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 188 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Product",
+    "location": "Tokyo",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-07-15"
+  },
+  {
+    "id": 189,
+    "name": "User 189",
+    "email": "user189@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=189",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 189 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Support",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-01-23"
+  },
+  {
+    "id": 190,
+    "name": "User 190",
+    "email": "user190@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=190",
+    "agency": "User Engagement Division",
+    "description": "User 190 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Product",
+    "location": "Dubai",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2019-06-18"
+  },
+  {
+    "id": 191,
+    "name": "User 191",
+    "email": "user191@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=191",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 191 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Product",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2020-11-17"
+  },
+  {
+    "id": 192,
+    "name": "User 192",
+    "email": "user192@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=192",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 192 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Finance",
+    "location": "Berlin",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2019-07-26"
+  },
+  {
+    "id": 193,
+    "name": "User 193",
+    "email": "user193@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=193",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 193 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Legal",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2023-03-21"
+  },
+  {
+    "id": 194,
+    "name": "User 194",
+    "email": "user194@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=194",
+    "agency": "User Engagement Division",
+    "description": "User 194 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Support",
+    "location": "Dubai",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2018-08-02"
+  },
+  {
+    "id": 195,
+    "name": "User 195",
+    "email": "user195@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=195",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 195 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Engineering",
+    "location": "Toronto",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2021-06-10"
+  },
+  {
+    "id": 196,
+    "name": "User 196",
+    "email": "user196@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=196",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 196 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Legal",
+    "location": "Sydney",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2022-05-06"
+  },
+  {
+    "id": 197,
+    "name": "User 197",
+    "email": "user197@example.com",
+    "role": "Manager",
+    "avatar": "https://i.pravatar.cc/150?img=197",
+    "agency": "Managerial Strategy Bureau",
+    "description": "User 197 is a dedicated Manager responsible for overseeing project execution, team collaboration, and high-level planning.",
+    "department": "Operations",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "approve"
+    ],
+    "join_date": "2021-03-25"
+  },
+  {
+    "id": 198,
+    "name": "User 198",
+    "email": "user198@example.com",
+    "role": "User",
+    "avatar": "https://i.pravatar.cc/150?img=198",
+    "agency": "User Engagement Division",
+    "description": "User 198 is a User who participates in platform activities and consumes services provided by the system.",
+    "department": "Design",
+    "location": "Toronto",
+    "permissions": [
+      "read"
+    ],
+    "join_date": "2021-01-10"
+  },
+  {
+    "id": 199,
+    "name": "User 199",
+    "email": "user199@example.com",
+    "role": "Moderator",
+    "avatar": "https://i.pravatar.cc/150?img=199",
+    "agency": "Moderation Oversight Unit",
+    "description": "User 199 is a Moderator tasked with ensuring community standards and content compliance.",
+    "department": "Operations",
+    "location": "Singapore",
+    "permissions": [
+      "read",
+      "write",
+      "moderate"
+    ],
+    "join_date": "2022-02-15"
+  },
+  {
+    "id": 200,
+    "name": "User 200",
+    "email": "user200@example.com",
+    "role": "Admin",
+    "avatar": "https://i.pravatar.cc/150?img=200",
+    "agency": "Agency of Admin Affairs",
+    "description": "User 200 is an Admin who oversees system-level operations and manages user roles and permissions with high responsibility.",
+    "department": "Operations",
+    "location": "Paris",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "manage_users"
+    ],
+    "join_date": "2020-07-27"
+  }
+]

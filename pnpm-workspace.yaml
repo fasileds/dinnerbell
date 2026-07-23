@@ -1,0 +1,11 @@
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@prisma/client'
+  - '@prisma/engines'
+  - bcrypt
+  - bufferutil
+  - core-js
+  - esbuild
+  - prisma
+  - sharp
+  - utf-8-validate

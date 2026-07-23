@@ -1,0 +1,58 @@
+const dishList = [
+  {
+    id: 1,
+    title: "hamburger",
+    img: "https://media.istockphoto.com/id/1473906544/photo/close-up-on-delicious-round-pizza-with-prosciutto-mozzarella-and-basil-leaves-on-top-served.jpg?s=2048x2048&w=is&k=20&c=YBfhj4wG_JU-SpIbWB5HjW8-m2jwaOdsHQ3sTCdkocg=",
+    rating: 4.5,
+    detailed: true,
+    favorited: true,
+    price: 15.99,
+  },
+  {
+    id: 2,
+    title: "Chicken nuggets",
+    img: "https://media.istockphoto.com/id/1473906544/photo/close-up-on-delicious-round-pizza-with-prosciutto-mozzarella-and-basil-leaves-on-top-served.jpg?s=2048x2048&w=is&k=20&c=YBfhj4wG_JU-SpIbWB5HjW8-m2jwaOdsHQ3sTCdkocg=",
+    rating: 4.5,
+    detailed: true,
+    favorited: true,
+    price: 15.99,
+  },
+  {
+    id: 3,
+    title: "Fried chicken",
+    img: "https://media.istockphoto.com/id/1473906544/photo/close-up-on-delicious-round-pizza-with-prosciutto-mozzarella-and-basil-leaves-on-top-served.jpg?s=2048x2048&w=is&k=20&c=YBfhj4wG_JU-SpIbWB5HjW8-m2jwaOdsHQ3sTCdkocg=",
+    rating: 4.5,
+    detailed: true,
+    favorited: true,
+    price: 15.99,
+  },
+  {
+    id: 4,
+    title: "Hot pizza",
+    img: "https://media.istockphoto.com/id/1473906544/photo/close-up-on-delicious-round-pizza-with-prosciutto-mozzarella-and-basil-leaves-on-top-served.jpg?s=2048x2048&w=is&k=20&c=YBfhj4wG_JU-SpIbWB5HjW8-m2jwaOdsHQ3sTCdkocg=",
+    rating: 4.5,
+    detailed: true,
+    favorited: true,
+    price: 15.99,
+  },
+  {
+    id: 5,
+    title: "ice cream cookies",
+    img: "https://media.istockphoto.com/id/1473906544/photo/close-up-on-delicious-round-pizza-with-prosciutto-mozzarella-and-basil-leaves-on-top-served.jpg?s=2048x2048&w=is&k=20&c=YBfhj4wG_JU-SpIbWB5HjW8-m2jwaOdsHQ3sTCdkocg=",
+    rating: 4.5,
+    detailed: true,
+    favorited: true,
+    price: 15.99,
+  },
+  {
+    id: 6,
+    title: "chicken drums",
+    img: "https://media.istockphoto.com/id/1473906544/photo/close-up-on-delicious-round-pizza-with-prosciutto-mozzarella-and-basil-leaves-on-top-served.jpg?s=2048x2048&w=is&k=20&c=YBfhj4wG_JU-SpIbWB5HjW8-m2jwaOdsHQ3sTCdkocg=",
+    rating: 4.5,
+    detailed: true,
+    favorited: true,
+    price: 15.99,
+  },
+];
+
+export default dishList;
