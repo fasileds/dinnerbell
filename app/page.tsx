@@ -23,7 +23,8 @@ import {
   FaIdCard,
   FaFileContract,
   FaUserTie,
-  FaUserCheck
+  FaUserCheck,
+  FaCamera
 } from "react-icons/fa";
 import { NextResponse } from "next/server";
 
@@ -40,6 +41,7 @@ export default function Page() {
   const [ownerIdNumber, setOwnerIdNumber] = useState("");
   const [foodInspectionNumber, setFoodInspectionNumber] = useState("");
   const [foodInspectionDate, setFoodInspectionDate] = useState("");
+  const [foodInspectionImage, setFoodInspectionImage] = useState("");
   const [isAggent, setIsAggent] = useState(false);
   const [nameOffAgnet, setNameOffAgnet] = useState("");
   const [agreedToTerms, setAgreedToTerms] = useState(false);
@@ -109,8 +111,16 @@ export default function Page() {
     }
   };
 
+  const handleInspectionImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => setFoodInspectionImage(reader.result as string);
+    reader.readAsDataURL(file);
+  };
+
   const handleOnboardingSubmit = async () => {
-    if (!restaurantName || !ownerIdNumber || !foodInspectionNumber || !foodInspectionDate || !agreedToTerms) {
+    if (!restaurantName || !ownerIdNumber || !foodInspectionNumber || !foodInspectionDate || !foodInspectionImage || !agreedToTerms) {
       setError("Please complete all fields.");
       return;
     }
@@ -174,6 +184,7 @@ export default function Page() {
           ownerIdNumber,
           foodInspectionNumber,
           foodInspectionDate,
+          foodInspectionImage,
           agreedToTerms,
           isAggent,
           nameOffAgnet,
@@ -493,6 +504,35 @@ export default function Page() {
                       className="w-full bg-gray-50 border border-transparent rounded-[1.5rem] pl-14 pr-6 py-5 focus:bg-white focus:border-emerald-500 focus:shadow-[0_0_30px_rgba(16,185,129,0.1)] outline-none transition-all font-bold text-gray-800"
                     />
                   </div>
+                </div>
+
+                {/* Food Inspection Result Photo */}
+                <div className="space-y-1.5 group">
+                  <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1 group-focus-within:text-emerald-600 transition-colors">Photo of Recent Food Inspection Result</label>
+                  <label
+                    htmlFor="foodInspectionImage"
+                    className="flex items-center gap-4 w-full bg-gray-50 border border-dashed border-gray-300 rounded-[1.5rem] pl-6 pr-6 py-5 cursor-pointer hover:bg-gray-100 hover:border-emerald-400 transition-all"
+                  >
+                    {foodInspectionImage ? (
+                      <img
+                        src={foodInspectionImage}
+                        alt="Food inspection result preview"
+                        className="w-14 h-14 object-cover rounded-xl border border-gray-200 shrink-0"
+                      />
+                    ) : (
+                      <FaCamera className="text-gray-300 text-xl shrink-0" />
+                    )}
+                    <span className="font-bold text-gray-600 text-sm truncate">
+                      {foodInspectionImage ? "Photo selected — tap to change" : "Upload a photo of your inspection result"}
+                    </span>
+                    <input
+                      id="foodInspectionImage"
+                      type="file"
+                      accept="image/*"
+                      onChange={handleInspectionImageChange}
+                      className="hidden"
+                    />
+                  </label>
                 </div>
 
                 {/* Agent Status */}

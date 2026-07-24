@@ -31,6 +31,7 @@ model User {
   ownerIdNumber        String?
   foodInspectionNumber String?
   foodInspectionDate   String?
+  foodInspectionImage  String?
   agreedToTerms        Boolean @default(false)
 }
 
