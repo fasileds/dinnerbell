@@ -116,7 +116,7 @@ export default function PrivacyPolicy() {
           icon: 'error',
           title: 'Verification Failed',
           text: verifyData.message || `Your restaurant did not pass the health inspection.`,
-          confirmButtonColor: '#3B82F6',
+          confirmButtonColor: '#10B981',
           backdrop: `rgba(15, 23, 42, 0.8)`
         });
         return;
@@ -128,7 +128,7 @@ export default function PrivacyPolicy() {
           icon: 'warning',
           title: 'Restaurant Not Found',
           text: verifyData.message || `We could not find your restaurant in the database.`,
-          confirmButtonColor: '#3B82F6',
+          confirmButtonColor: '#10B981',
         });
         return;
       }
@@ -139,7 +139,7 @@ export default function PrivacyPolicy() {
           icon: 'error',
           title: 'System Error',
           text: verifyData.message || verifyData.error || 'There was a problem verifying your restaurant.',
-          confirmButtonColor: '#3B82F6',
+          confirmButtonColor: '#10B981',
         });
         return;
       }
@@ -175,10 +175,10 @@ export default function PrivacyPolicy() {
   };
 
   return (
-    <div className="relative min-h-screen bg-[#F8FAFC] flex flex-col items-center justify-center p-4 md:p-8 overflow-hidden font-sans selection:bg-blue-100 selection:text-blue-900">
+    <div className="relative min-h-screen bg-[#F8FAFC] flex flex-col items-center justify-center p-4 md:p-8 overflow-hidden font-sans selection:bg-emerald-100 selection:text-emerald-900">
       {/* Decorative Background Mesh/Blobs */}
       <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-emerald-500/5 rounded-full blur-[120px]" />
-      <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-blue-500/5 rounded-full blur-[120px]" />
+      <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-emerald-500/5 rounded-full blur-[120px]" />
 
       {/* 🍕 Floating Food Garden - Onboarding Edition */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
@@ -230,16 +230,16 @@ export default function PrivacyPolicy() {
         </motion.div>
       </div>
 
-      <div className="max-w-4xl w-full bg-white/90 backdrop-blur-2xl rounded-[3rem] shadow-[0_32px_96px_-12px_rgba(0,0,0,0.1)] overflow-hidden flex flex-col md:flex-row min-h-[700px] border border-white/50 relative z-10 animate-slideUp">
+      <div className="max-w-4xl w-full bg-white/90 backdrop-blur-2xl rounded-3xl shadow-[0_32px_96px_-12px_rgba(0,0,0,0.1)] overflow-hidden flex flex-col md:flex-row min-h-[640px] border border-white/50 relative z-10 animate-slideUp">
         
         {/* Left Sidebar - Branding & Progress */}
-        <div className="md:w-[320px] bg-[#1E293B] p-10 text-white flex flex-col justify-between relative overflow-hidden">
+        <div className="md:w-[300px] bg-[#1E293B] p-6 md:p-8 text-white flex flex-col justify-between relative overflow-hidden">
           {/* Decorative Gradient Overlay */}
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-600/20 to-transparent pointer-events-none" />
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-emerald-600/20 to-transparent pointer-events-none" />
           
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-10">
-              <div className="w-10 h-10 bg-blue-500 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/30">
+              <div className="w-10 h-10 bg-emerald-500 rounded-xl flex items-center justify-center shadow-lg shadow-emerald-500/30">
                 <FaFileContract className="text-white text-xl" />
               </div>
               <span className="text-xl font-black tracking-tighter uppercase">Dinner Bell</span>
@@ -250,7 +250,7 @@ export default function PrivacyPolicy() {
             <div className="space-y-6">
               {/* Step 1 Indicator */}
               <div className={`flex items-start gap-4 transition-all duration-300 ${step === 1 ? "opacity-100 scale-100" : "opacity-40 scale-95"}`}>
-                <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-bold text-sm ${step >= 1 ? "bg-blue-500 border-blue-500" : "border-gray-500"}`}>
+                <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-bold text-sm ${step >= 1 ? "bg-emerald-500 border-emerald-500" : "border-gray-500"}`}>
                   {step > 1 ? <FaCheckCircle /> : "1"}
                 </div>
                 <div>
@@ -263,7 +263,7 @@ export default function PrivacyPolicy() {
 
               {/* Step 2 Indicator */}
               <div className={`flex items-start gap-4 transition-all duration-300 ${step === 2 ? "opacity-100 scale-100" : "opacity-40 scale-95"}`}>
-                <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-bold text-sm ${step >= 2 ? "bg-blue-500 border-blue-500" : "border-gray-500"}`}>
+                <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-bold text-sm ${step >= 2 ? "bg-emerald-500 border-emerald-500" : "border-gray-500"}`}>
                   {step > 2 ? <FaCheckCircle /> : "2"}
                 </div>
                 <div>
@@ -276,7 +276,7 @@ export default function PrivacyPolicy() {
 
               {/* Step 3 Indicator */}
               <div className={`flex items-start gap-4 transition-all duration-300 ${step === 3 ? "opacity-100 scale-100" : "opacity-40 scale-95"}`}>
-                <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-bold text-sm ${step === 3 ? "bg-blue-500 border-blue-500" : "border-gray-500"}`}>
+                <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center font-bold text-sm ${step === 3 ? "bg-emerald-500 border-emerald-500" : "border-gray-500"}`}>
                   3
                 </div>
                 <div>
@@ -294,11 +294,11 @@ export default function PrivacyPolicy() {
           </div>
           
           {/* Abstract Design Elements */}
-          <div className="absolute bottom-[-100px] left-[-50px] w-64 h-64 bg-blue-600/10 rounded-full blur-[100px]" />
+          <div className="absolute bottom-[-100px] left-[-50px] w-64 h-64 bg-emerald-600/10 rounded-full blur-[100px]" />
         </div>
 
         {/* Right Content Area */}
-        <div className="flex-1 p-8 md:p-14 bg-white relative">
+        <div className="flex-1 p-6 sm:p-8 md:p-12 bg-white relative">
           {error && (
             <div className="absolute top-8 left-8 right-8 p-4 bg-red-50 border-l-4 border-red-500 text-red-700 text-sm rounded-r-lg animate-shake z-20">
               <div className="flex items-center gap-2">
@@ -311,97 +311,97 @@ export default function PrivacyPolicy() {
             {step === 1 && (
               <div className="animate-slideUp space-y-8">
                 <header className="mb-2">
-                  <h1 className="text-3xl font-black text-gray-900 tracking-tight">Tell us about your restaurant</h1>
+                  <h1 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight">Tell us about your restaurant</h1>
                   <p className="text-gray-500 mt-2 font-medium">Enter your official business information to proceed.</p>
                 </header>
 
                 <div className="space-y-6">
                   {/* Restaurant Name Input */}
                   <div className="space-y-2 group">
-                    <label className="text-[12px] font-black text-gray-400 uppercase tracking-widest ml-1 transition-colors group-focus-within:text-blue-600">
+                    <label className="text-[11px] font-bold text-gray-400 uppercase tracking-widest ml-1 transition-colors group-focus-within:text-emerald-600">
                       Official Restaurant Name
                     </label>
                     <div className="relative">
-                      <FaStore className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-300 transition-colors group-focus-within:text-blue-500" />
+                      <FaStore className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 transition-colors group-focus-within:text-emerald-500 text-sm" />
                       <input
                         type="text"
                         name="restaurantName"
                         value={formData.restaurantName}
                         onChange={handleInputChange}
                         placeholder="e.g. Blue Ribbon Grill"
-                        className="w-full bg-gray-50 border border-transparent rounded-[1.25rem] pl-12 pr-6 py-5 focus:bg-white focus:border-blue-500 focus:shadow-[0_0_20px_rgba(59,130,246,0.1)] outline-none transition-all font-semibold text-gray-800 placeholder:text-gray-300 placeholder:font-medium"
+                        className="w-full bg-gray-50 border border-gray-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm placeholder:text-gray-300 placeholder:font-medium"
                       />
                     </div>
                   </div>
 
                   {/* Owner ID Input */}
                   <div className="space-y-2 group">
-                    <label className="text-[12px] font-black text-gray-400 uppercase tracking-widest ml-1 transition-colors group-focus-within:text-blue-600">
+                    <label className="text-[11px] font-bold text-gray-400 uppercase tracking-widest ml-1 transition-colors group-focus-within:text-emerald-600">
                       Tax/Owner ID Number
                     </label>
                     <div className="relative">
-                      <FaIdCard className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-300 transition-colors group-focus-within:text-blue-500" />
+                      <FaIdCard className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 transition-colors group-focus-within:text-emerald-500 text-sm" />
                       <input
                         type="text"
                         name="ownerIdNumber"
                         value={formData.ownerIdNumber}
                         onChange={handleInputChange}
                         placeholder="Registration or SSN"
-                        className="w-full bg-gray-50 border border-transparent rounded-[1.25rem] pl-12 pr-6 py-5 focus:bg-white focus:border-blue-500 focus:shadow-[0_0_20px_rgba(59,130,246,0.1)] outline-none transition-all font-semibold text-gray-800 placeholder:text-gray-300 placeholder:font-medium"
+                        className="w-full bg-gray-50 border border-gray-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm placeholder:text-gray-300 placeholder:font-medium"
                       />
                     </div>
                   </div>
 
                   {/* Food Inspection Input */}
                   <div className="space-y-2 group">
-                    <label className="text-[12px] font-black text-gray-400 uppercase tracking-widest ml-1 transition-colors group-focus-within:text-blue-600">
+                    <label className="text-[11px] font-bold text-gray-400 uppercase tracking-widest ml-1 transition-colors group-focus-within:text-emerald-600">
                       Food Safety License
                     </label>
                     <div className="relative">
-                      <FaFileContract className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-300 transition-colors group-focus-within:text-blue-500" />
+                      <FaFileContract className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 transition-colors group-focus-within:text-emerald-500 text-sm" />
                       <input
                         type="text"
                         name="foodInspectionNumber"
                         value={formData.foodInspectionNumber}
                         onChange={handleInputChange}
                         placeholder="e.g. FI-2024-XXXX"
-                        className="w-full bg-gray-50 border border-transparent rounded-[1.25rem] pl-12 pr-6 py-5 focus:bg-white focus:border-blue-500 focus:shadow-[0_0_20px_rgba(59,130,246,0.1)] outline-none transition-all font-semibold text-gray-800 placeholder:text-gray-300 placeholder:font-medium"
+                        className="w-full bg-gray-50 border border-gray-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm placeholder:text-gray-300 placeholder:font-medium"
                       />
                     </div>
                   </div>
 
                   {/* Food Inspection Date Input */}
                   <div className="space-y-2 group">
-                    <label className="text-[12px] font-black text-gray-400 uppercase tracking-widest ml-1 transition-colors group-focus-within:text-blue-600">
+                    <label className="text-[11px] font-bold text-gray-400 uppercase tracking-widest ml-1 transition-colors group-focus-within:text-emerald-600">
                       Date of Last Food Inspection
                     </label>
                     <div className="relative">
-                      <FaFileContract className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-300 transition-colors group-focus-within:text-blue-500" />
+                      <FaFileContract className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 transition-colors group-focus-within:text-emerald-500 text-sm" />
                       <input
                         type="date"
                         name="foodInspectionDate"
                         value={formData.foodInspectionDate}
                         onChange={handleInputChange}
-                        className="w-full bg-gray-50 border border-transparent rounded-[1.25rem] pl-12 pr-6 py-5 focus:bg-white focus:border-blue-500 focus:shadow-[0_0_20px_rgba(59,130,246,0.1)] outline-none transition-all font-semibold text-gray-800 placeholder:text-gray-300 placeholder:font-medium"
+                        className="w-full bg-gray-50 border border-gray-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm placeholder:text-gray-300 placeholder:font-medium"
                       />
                     </div>
                   </div>
 
                   {/* Agent Status Toggle */}
                   <div className="space-y-4 pt-2">
-                    <label className="flex items-center gap-4 p-5 bg-gray-50 rounded-[1.25rem] cursor-pointer hover:bg-gray-100 transition-all group border-2 border-transparent has-[:checked]:border-blue-500/20 has-[:checked]:bg-blue-50/10">
+                    <label className="flex items-center gap-4 p-5 bg-gray-50 rounded-xl cursor-pointer hover:bg-gray-100 transition-all group border-2 border-transparent has-[:checked]:border-emerald-500/20 has-[:checked]:bg-emerald-50/10">
                       <div className="relative">
                         <input
                           type="checkbox"
                           name="isAggent"
                           checked={formData.isAggent}
                           onChange={handleInputChange}
-                          className="peer w-6 h-6 rounded-lg border-2 border-gray-300 checked:bg-blue-600 checked:border-blue-600 transition-all cursor-pointer accent-blue-600"
+                          className="peer w-6 h-6 rounded-lg border-2 border-gray-300 checked:bg-emerald-600 checked:border-emerald-600 transition-all cursor-pointer accent-emerald-600"
                         />
                       </div>
                       <div className="flex-1">
                         <h4 className="text-[13px] font-black text-gray-800 flex items-center gap-2">
-                          <FaUserTie className="text-blue-500" /> I am an authorized agent
+                          <FaUserTie className="text-emerald-500" /> I am an authorized agent
                         </h4>
                         <p className="text-[11px] text-gray-400 font-medium">Toggle this if you are representing the owner</p>
                       </div>
@@ -409,18 +409,18 @@ export default function PrivacyPolicy() {
 
                     {formData.isAggent && (
                       <div className="space-y-2 group animate-fadeIn">
-                        <label className="text-[11px] font-black text-blue-600 uppercase tracking-widest ml-1">
+                        <label className="text-[11px] font-black text-emerald-600 uppercase tracking-widest ml-1">
                           Agent Full Name
                         </label>
                         <div className="relative">
-                          <FaUserCheck className="absolute left-5 top-1/2 -translate-y-1/2 text-blue-400" />
+                          <FaUserCheck className="absolute left-5 top-1/2 -translate-y-1/2 text-emerald-400" />
                           <input
                             type="text"
                             name="nameOffAgnet"
                             value={formData.nameOffAgnet}
                             onChange={handleInputChange}
                             placeholder="Enter your legal name"
-                            className="w-full bg-blue-50/30 border border-blue-100 rounded-[1.25rem] pl-12 pr-6 py-4 focus:bg-white focus:border-blue-500 focus:shadow-[0_0_20px_rgba(59,130,246,0.1)] outline-none transition-all font-semibold text-gray-800 placeholder:text-gray-300"
+                            className="w-full bg-emerald-50/30 border border-emerald-100 rounded-xl pl-12 pr-6 py-4 focus:bg-white focus:border-emerald-500 focus:shadow-[0_0_20px_rgba(16,185,129,0.1)] outline-none transition-all font-semibold text-gray-800 placeholder:text-gray-300"
                           />
                         </div>
                       </div>
@@ -431,7 +431,7 @@ export default function PrivacyPolicy() {
                 <div className="pt-4">
                   <button
                     onClick={nextStep}
-                    className="w-full h-[70px] bg-[#1E293B] hover:bg-black text-white font-bold text-lg rounded-[1.5rem] shadow-xl hover:translate-y-[-2px] hover:shadow-2xl transition-all active:scale-[0.98] flex items-center justify-center gap-3 group"
+                    className="w-full h-12 bg-[#1E293B] hover:bg-black text-white font-bold text-base rounded-xl shadow-lg hover:translate-y-[-1px] hover:shadow-xl transition-all active:scale-[0.98] flex items-center justify-center gap-3 group"
                   >
                     Continue <FaArrowRight className="text-sm group-hover:translate-x-1 transition-transform" />
                   </button>
@@ -444,15 +444,15 @@ export default function PrivacyPolicy() {
                 <header>
                   <button 
                     onClick={() => setStep(1)} 
-                    className="flex items-center gap-2 text-sm font-bold text-blue-600 mb-6 hover:-translate-x-1 transition-transform"
+                    className="flex items-center gap-2 text-sm font-bold text-emerald-600 mb-6 hover:-translate-x-1 transition-transform"
                   >
                     <FaChevronLeft className="text-xs" /> Back to details
                   </button>
-                  <h1 className="text-3xl font-black text-gray-900 tracking-tight leading-tight">Review our data policies</h1>
+                  <h1 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight leading-tight">Review our data policies</h1>
                   <p className="text-gray-500 mt-2 font-medium">Finalize your onboarding by accepting our terms.</p>
                 </header>
 
-                <div className="h-[320px] overflow-y-auto border-2 border-gray-100 rounded-[1.5rem] p-6 text-[13px] text-gray-600 bg-gray-50/30 space-y-4 leading-relaxed scrollbar-thin scrollbar-thumb-gray-200">
+                <div className="h-[280px] overflow-y-auto border border-gray-100 rounded-xl p-5 text-[13px] text-gray-600 bg-gray-50/30 space-y-4 leading-relaxed scrollbar-thin scrollbar-thumb-gray-200">
                   <p className="font-bold text-gray-900">Privacy Policy for {formData.restaurantName}</p>
                   <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information. We collect business-related identifiers (Owner ID: {formData.ownerIdNumber}) to verify legitimacy.</p>
                   <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
@@ -463,13 +463,13 @@ export default function PrivacyPolicy() {
                     <li>Company: Dinner Bell Ads Network.</li>
                     <li>Personal Data: Information relating to you.</li>
                   </ul>
-                  <p className="text-[11px] bg-blue-50 p-3 rounded-xl border border-blue-100/50">
-                    <span className="font-bold text-blue-700 uppercase">Verification Check:</span> Your food inspection number <strong>{formData.foodInspectionNumber}</strong> will be validated against local regulatory databases.
+                  <p className="text-[11px] bg-emerald-50 p-3 rounded-xl border border-emerald-100/50">
+                    <span className="font-bold text-emerald-700 uppercase">Verification Check:</span> Your food inspection number <strong>{formData.foodInspectionNumber}</strong> will be validated against local regulatory databases.
                   </p>
                 </div>
 
                 <div className="space-y-6">
-                  <label className="flex items-start gap-4 p-6 bg-white border-2 border-gray-100 rounded-[1.5rem] cursor-pointer hover:border-blue-500/30 transition-all select-none group has-[:checked]:border-blue-600 has-[:checked]:bg-blue-50/20">
+                  <label className="flex items-start gap-3 p-4 bg-white border-2 border-gray-100 rounded-xl cursor-pointer hover:border-emerald-500/30 transition-all select-none group has-[:checked]:border-emerald-600 has-[:checked]:bg-emerald-50/20">
                     <div className="relative mt-1">
                       <input
                         type="checkbox"
@@ -477,20 +477,20 @@ export default function PrivacyPolicy() {
                         onChange={(e) => setAgreed(e.target.checked)}
                         className="peer opacity-0 absolute w-6 h-6 cursor-pointer"
                       />
-                      <div className="w-6 h-6 border-2 border-gray-200 rounded-lg group-hover:border-blue-400 peer-checked:bg-blue-600 peer-checked:border-blue-600 transition-all flex items-center justify-center text-white">
+                      <div className="w-6 h-6 border-2 border-gray-200 rounded-lg group-hover:border-emerald-400 peer-checked:bg-emerald-600 peer-checked:border-emerald-600 transition-all flex items-center justify-center text-white">
                         <FaCheckCircle className="text-[10px]" />
                       </div>
                     </div>
                     <div className="flex-1">
                       <span className="text-sm font-bold text-gray-700">I certify that the information provided is correct</span>
-                      <p className="text-[11px] text-gray-400 mt-1 font-medium">Agreement includes Dinner Bell <Link href="/pages/privacyPolicy" className="text-blue-600 hover:underline">Privacy Policy</Link> & <Link href="/pages/terms" className="text-blue-600 hover:underline">Terms</Link>.</p>
+                      <p className="text-[11px] text-gray-400 mt-1 font-medium">Agreement includes Dinner Bell <Link href="/pages/privacyPolicy" className="text-emerald-600 hover:underline">Privacy Policy</Link> & <Link href="/pages/terms" className="text-emerald-600 hover:underline">Terms</Link>.</p>
                     </div>
                   </label>
 
                   <button
                     disabled={!agreed || isSubmitting}
                     onClick={handleFinalSubmit}
-                    className="w-full h-[70px] bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-bold text-lg rounded-[1.5rem] shadow-[0_10px_30px_rgba(59,130,246,0.3)] hover:shadow-[0_15px_40px_rgba(59,130,246,0.4)] hover:translate-y-[-2px] disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98] flex items-center justify-center gap-3 group"
+                    className="w-full h-12 bg-gradient-to-r from-emerald-600 to-teal-700 text-white font-bold text-base rounded-xl shadow-[0_8px_24px_rgba(16,185,129,0.3)] hover:shadow-[0_12px_32px_rgba(16,185,129,0.4)] hover:translate-y-[-1px] disabled:opacity-50 disabled:grayscale transition-all active:scale-[0.98] flex items-center justify-center gap-3 group"
                   >
                     {isSubmitting ? (
                       <div className="w-5 h-5 border-[3px] border-white/30 border-t-white rounded-full animate-spin" />
@@ -504,12 +504,12 @@ export default function PrivacyPolicy() {
 
             {step === 3 && (
               <div className="animate-slideUp space-y-10 text-center">
-                <div className="w-24 h-24 bg-blue-50 rounded-[2rem] flex items-center justify-center mx-auto shadow-inner">
-                  <FaShieldAlt className="text-blue-500 text-4xl" />
+                <div className="w-24 h-24 bg-emerald-50 rounded-[2rem] flex items-center justify-center mx-auto shadow-inner">
+                  <FaShieldAlt className="text-emerald-500 text-4xl" />
                 </div>
                 
                 <header>
-                  <h1 className="text-3xl font-black text-gray-900 tracking-tight leading-tight">Secure your account</h1>
+                  <h1 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight leading-tight">Secure your account</h1>
                   <p className="text-gray-500 mt-3 font-medium px-4">
                     Final step! Sign in with Google to securely link your restaurant profile to your account.
                   </p>
@@ -518,16 +518,16 @@ export default function PrivacyPolicy() {
                 <div className="space-y-4">
                   <button
                     onClick={handleFinalLogin}
-                    className="w-full h-[75px] bg-white border-2 border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all rounded-[1.5rem] flex items-center justify-center gap-4 text-gray-700 font-bold text-lg group"
+                    className="w-full h-14 bg-white border-2 border-gray-100 hover:border-emerald-500 hover:shadow-lg transition-all rounded-xl flex items-center justify-center gap-3 text-gray-700 font-bold text-base group"
                   >
-                    <div className="w-10 h-10 bg-gray-50 rounded-xl flex items-center justify-center group-hover:bg-blue-50 transition-colors">
+                    <div className="w-10 h-10 bg-gray-50 rounded-xl flex items-center justify-center group-hover:bg-emerald-50 transition-colors">
                       <FaGoogle className="text-red-500" />
                     </div>
                     Sign in with Google
                   </button>
                   
                   <p className="text-[11px] text-gray-400 font-medium">
-                    By continuing, you agree to our <Link href="/pages/terms" className="text-blue-600 hover:underline">Terms</Link> and <Link href="/pages/privacyPolicy" className="text-blue-600 hover:underline">Privacy Policy</Link>. Your data will be saved immediately after successful login.
+                    By continuing, you agree to our <Link href="/pages/terms" className="text-emerald-600 hover:underline">Terms</Link> and <Link href="/pages/privacyPolicy" className="text-emerald-600 hover:underline">Privacy Policy</Link>. Your data will be saved immediately after successful login.
                   </p>
                 </div>
 

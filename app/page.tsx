@@ -235,7 +235,7 @@ export default function Page() {
             </a>
             <button
               onClick={handleGetStarted}
-              className="flex items-center gap-2 bg-[#10B981] hover:bg-[#059669] text-white rounded-2xl px-6 py-3.5 text-sm font-black shadow-lg shadow-emerald-200 transition-all hover:translate-y-[-2px] active:scale-95"
+              className="flex items-center gap-2 bg-[#10B981] hover:bg-[#059669] text-white rounded-xl px-5 py-2.5 text-sm font-bold shadow-md shadow-emerald-200/60 transition-all hover:translate-y-[-1px] active:scale-95"
             >
               Get Started <FaRocket className="text-[12px]" />
             </button>
@@ -326,17 +326,17 @@ export default function Page() {
               </span>
               Next-Gen Local Ads
             </div>
-            <h1 className="text-5xl md:text-7xl font-black text-slate-900 leading-[1.1] tracking-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-slate-900 leading-[1.08] tracking-tight">
               Scale your restaurant with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-teal-600">Video Ads</span>.
             </h1>
-            <p className="text-lg md:text-xl text-slate-500 font-medium leading-relaxed max-w-xl">
+            <p className="text-base md:text-lg text-slate-500 font-medium leading-relaxed max-w-xl">
               Dinner Bell lets local businesses create and target stunning video advertisements across specific zip codes with a few simple clicks.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4">
                {session ? (
                  <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                    <div className="flex items-center gap-4 bg-white p-2 rounded-3xl border border-gray-100 shadow-lg shadow-slate-100">
+                    <div className="flex items-center gap-3 bg-white p-1.5 rounded-2xl border border-gray-100 shadow-md shadow-slate-100">
                         <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-emerald-500">
                             <Image src={session.user?.image || "/bb.png"} width={48} height={48} alt="User" />
                         </div>
@@ -347,7 +347,7 @@ export default function Page() {
                     </div>
                     <button 
                       onClick={handleGetStarted}
-                      className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-2xl font-black shadow-lg shadow-emerald-200 transition-all hover:translate-y-[-2px] active:scale-95"
+                      className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-xl font-bold shadow-md shadow-emerald-200/60 transition-all hover:translate-y-[-1px] active:scale-95"
                     >
                       Go to Dashboard
                     </button>
@@ -357,7 +357,7 @@ export default function Page() {
                    <div className="flex gap-3">
                      <button 
                       onClick={() => handleSignIn("google")}
-                      className="flex items-center gap-4 bg-white border border-gray-200 px-10 py-5 rounded-2.5xl font-black text-slate-800 hover:bg-gray-50 transition-all shadow-[0_10px_30px_rgba(0,0,0,0.05)] active:scale-95"
+                      className="flex items-center justify-center gap-3 bg-white border border-gray-200 px-6 py-3.5 rounded-xl font-bold text-slate-800 hover:bg-gray-50 hover:border-gray-300 transition-all shadow-[0_6px_20px_rgba(0,0,0,0.06)] active:scale-95 w-full sm:w-auto"
                      >
                        <FaGoogle className="text-red-500 text-xl" /> Sign In with Google
                      </button>
@@ -425,39 +425,39 @@ export default function Page() {
       {/* 🌟 Hyper-Premium Onboarding Modal */}
       {showModal && (
         <div className="fixed inset-0 flex items-start justify-center bg-[#0F172A]/80 backdrop-blur-xl z-[100] p-4 sm:p-8 overflow-y-auto">
-          <div className="bg-white rounded-[3rem] shadow-[0_32px_96px_-12px_rgba(0,0,0,0.5)] w-full max-w-xl my-auto animate-slideUp overflow-hidden flex flex-col">
+          <div className="bg-white rounded-3xl shadow-[0_32px_96px_-12px_rgba(0,0,0,0.5)] w-full max-w-lg my-auto animate-slideUp overflow-hidden flex flex-col">
             
             {/* Modal Header - Fixed at top of modal */}
-            <div className="bg-emerald-600 p-10 text-center relative overflow-hidden shrink-0">
+            <div className="bg-emerald-600 p-6 sm:p-8 text-center relative overflow-hidden shrink-0">
                <div className="absolute top-[-50px] right-[-50px] w-64 h-64 bg-white/10 rounded-full blur-3xl" />
                <div className="relative z-10">
-                  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-2xl">
-                     <FaStore className="text-emerald-600 text-3xl" />
+                  <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 shadow-xl">
+                     <FaStore className="text-emerald-600 text-xl" />
                   </div>
-                  <h3 className="text-3xl font-black text-white tracking-tight leading-tight">Business Verification</h3>
-                  <p className="text-emerald-50 mt-2 font-medium opacity-80">Finalize your profile to unlock the platform.</p>
+                  <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight leading-tight">Business Verification</h3>
+                  <p className="text-emerald-50 mt-1.5 font-medium opacity-80 text-sm">Finalize your profile to unlock the platform.</p>
                </div>
             </div>
 
-            <div className="p-10 pt-8 space-y-7 overflow-y-auto max-h-[70vh] custom-scrollbar">
+            <div className="p-5 sm:p-8 sm:pt-6 space-y-5 overflow-y-auto max-h-[70vh] custom-scrollbar">
               {error && (
                 <div className="p-4 bg-red-50 border-l-4 border-red-500 text-red-700 text-xs font-bold rounded-r-lg animate-shake">
                   {error}
                 </div>
               )}
 
-              <div className="grid gap-6">
+              <div className="grid gap-4">
                 {/* Restaurant Name */}
                 <div className="space-y-1.5 group">
                   <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1 group-focus-within:text-emerald-600 transition-colors">Restaurant Name</label>
                   <div className="relative">
-                    <FaStore className="absolute left-6 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-emerald-500 transition-colors" />
+                    <FaStore className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-emerald-500 transition-colors text-sm" />
                     <input
                       type="text"
                       value={restaurantName}
                       onChange={(e) => setRestaurantName(e.target.value)}
                       placeholder="The Golden Spatula"
-                      className="w-full bg-gray-50 border border-transparent rounded-[1.5rem] pl-14 pr-6 py-5 focus:bg-white focus:border-emerald-500 focus:shadow-[0_0_30px_rgba(16,185,129,0.1)] outline-none transition-all font-bold text-gray-800"
+                      className="w-full bg-gray-50 border border-gray-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm"
                     />
                   </div>
                 </div>
@@ -466,13 +466,13 @@ export default function Page() {
                 <div className="space-y-1.5 group">
                   <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1 group-focus-within:text-emerald-600 transition-colors">Owner Identification</label>
                   <div className="relative">
-                    <FaIdCard className="absolute left-6 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-emerald-500 transition-colors" />
+                    <FaIdCard className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-emerald-500 transition-colors text-sm" />
                     <input
                       type="text"
                       value={ownerIdNumber}
                       onChange={(e) => setOwnerIdNumber(e.target.value)}
                       placeholder="Official ID Number"
-                      className="w-full bg-gray-50 border border-transparent rounded-[1.5rem] pl-14 pr-6 py-5 focus:bg-white focus:border-emerald-500 focus:shadow-[0_0_30px_rgba(16,185,129,0.1)] outline-none transition-all font-bold text-gray-800"
+                      className="w-full bg-gray-50 border border-gray-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm"
                     />
                   </div>
                 </div>
@@ -481,13 +481,13 @@ export default function Page() {
                 <div className="space-y-1.5 group">
                   <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1 group-focus-within:text-emerald-600 transition-colors">Food Inspection Number</label>
                   <div className="relative">
-                    <FaFileContract className="absolute left-6 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-emerald-500 transition-colors" />
+                    <FaFileContract className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-emerald-500 transition-colors text-sm" />
                     <input
                       type="text"
                       value={foodInspectionNumber}
                       onChange={(e) => setFoodInspectionNumber(e.target.value)}
                       placeholder="FI-8822-2026"
-                      className="w-full bg-gray-50 border border-transparent rounded-[1.5rem] pl-14 pr-6 py-5 focus:bg-white focus:border-emerald-500 focus:shadow-[0_0_30px_rgba(16,185,129,0.1)] outline-none transition-all font-bold text-gray-800"
+                      className="w-full bg-gray-50 border border-gray-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm"
                     />
                   </div>
                 </div>
@@ -496,12 +496,12 @@ export default function Page() {
                 <div className="space-y-1.5 group">
                   <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1 group-focus-within:text-emerald-600 transition-colors">Date of Last Food Inspection</label>
                   <div className="relative">
-                    <FaFileContract className="absolute left-6 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-emerald-500 transition-colors" />
+                    <FaFileContract className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-300 group-focus-within:text-emerald-500 transition-colors text-sm" />
                     <input
                       type="date"
                       value={foodInspectionDate}
                       onChange={(e) => setFoodInspectionDate(e.target.value)}
-                      className="w-full bg-gray-50 border border-transparent rounded-[1.5rem] pl-14 pr-6 py-5 focus:bg-white focus:border-emerald-500 focus:shadow-[0_0_30px_rgba(16,185,129,0.1)] outline-none transition-all font-bold text-gray-800"
+                      className="w-full bg-gray-50 border border-gray-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm"
                     />
                   </div>
                 </div>
@@ -511,18 +511,18 @@ export default function Page() {
                   <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1 group-focus-within:text-emerald-600 transition-colors">Photo of Recent Food Inspection Result</label>
                   <label
                     htmlFor="foodInspectionImage"
-                    className="flex items-center gap-4 w-full bg-gray-50 border border-dashed border-gray-300 rounded-[1.5rem] pl-6 pr-6 py-5 cursor-pointer hover:bg-gray-100 hover:border-emerald-400 transition-all"
+                    className="flex items-center gap-3 w-full bg-gray-50 border border-dashed border-gray-300 rounded-xl px-4 py-3.5 cursor-pointer hover:bg-gray-100 hover:border-emerald-400 transition-all"
                   >
                     {foodInspectionImage ? (
                       <img
                         src={foodInspectionImage}
                         alt="Food inspection result preview"
-                        className="w-14 h-14 object-cover rounded-xl border border-gray-200 shrink-0"
+                        className="w-11 h-11 object-cover rounded-lg border border-gray-200 shrink-0"
                       />
                     ) : (
                       <FaCamera className="text-gray-300 text-xl shrink-0" />
                     )}
-                    <span className="font-bold text-gray-600 text-sm truncate">
+                    <span className="font-semibold text-gray-600 text-sm truncate">
                       {foodInspectionImage ? "Photo selected — tap to change" : "Upload a photo of your inspection result"}
                     </span>
                     <input
@@ -537,12 +537,12 @@ export default function Page() {
 
                 {/* Agent Status */}
                 <div className="space-y-4 pt-2">
-                  <label className="flex items-center gap-4 p-5 bg-gray-50 rounded-[1.5rem] cursor-pointer hover:bg-gray-100 transition-all group border-2 border-transparent has-[:checked]:border-emerald-500/20 has-[:checked]:bg-emerald-50/30">
+                  <label className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl cursor-pointer hover:bg-gray-100 transition-all group border-2 border-transparent has-[:checked]:border-emerald-500/20 has-[:checked]:bg-emerald-50/30">
                     <input
                       type="checkbox"
                       checked={isAggent}
                       onChange={(e) => setIsAggent(e.target.checked)}
-                      className="w-6 h-6 accent-emerald-600 rounded-lg cursor-pointer"
+                      className="w-5 h-5 accent-emerald-600 rounded-lg cursor-pointer"
                     />
                     <div className="flex-1">
                       <h4 className="text-[13px] font-black text-gray-800 flex items-center gap-2">
@@ -556,13 +556,13 @@ export default function Page() {
                     <div className="space-y-1.5 group animate-fadeIn">
                       <label className="text-[10px] font-black text-emerald-600 uppercase tracking-widest ml-1">Agent Name</label>
                       <div className="relative">
-                        <FaUserCheck className="absolute left-6 top-1/2 -translate-y-1/2 text-emerald-500" />
+                        <FaUserCheck className="absolute left-4 top-1/2 -translate-y-1/2 text-emerald-500 text-sm" />
                         <input
                           type="text"
                           value={nameOffAgnet}
                           onChange={(e) => setNameOffAgnet(e.target.value)}
                           placeholder="Your Legal Name"
-                          className="w-full bg-emerald-50/30 border border-emerald-100 rounded-[1.5rem] pl-14 pr-6 py-4 focus:bg-white focus:border-emerald-500 focus:shadow-[0_0_30px_rgba(16,185,129,0.1)] outline-none transition-all font-bold text-gray-800"
+                          className="w-full bg-emerald-50/30 border border-emerald-100 rounded-xl pl-11 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 outline-none transition-all font-semibold text-gray-800 text-sm"
                         />
                       </div>
                     </div>
@@ -571,29 +571,29 @@ export default function Page() {
               </div>
 
               {/* Terms */}
-              <label className="flex items-center gap-4 p-5 bg-gray-50 rounded-[1.5rem] cursor-pointer hover:bg-gray-100 transition-all group border-2 border-transparent has-[:checked]:border-emerald-500/20 has-[:checked]:bg-emerald-50/30">
+              <label className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl cursor-pointer hover:bg-gray-100 transition-all group border-2 border-transparent has-[:checked]:border-emerald-500/20 has-[:checked]:bg-emerald-50/30">
                 <input
                   type="checkbox"
                   checked={agreedToTerms}
                   onChange={(e) => setAgreedToTerms(e.target.checked)}
-                  className="w-6 h-6 accent-emerald-600 rounded-lg"
+                  className="w-5 h-5 accent-emerald-600 rounded-lg"
                 />
                 <div className="text-[13px] font-bold text-gray-600 leading-tight">
                   Agree to <button onClick={(e) => { e.preventDefault(); router.push('/pages/terms'); }} className="text-emerald-700 hover:underline">Terms of Service</button> & <button onClick={(e) => { e.preventDefault(); router.push('/pages/terms'); }} className="text-emerald-700 hover:underline">Privacy Policy</button>
                 </div>
               </label>
 
-              <div className="grid grid-cols-2 gap-5 pt-4">
+              <div className="grid grid-cols-2 gap-3 pt-2">
                 <button
                   onClick={() => setShowModal(false)}
-                  className="px-8 py-5 rounded-[1.5rem] bg-gray-100 hover:bg-gray-200 text-gray-600 font-black transition-all active:scale-95"
+                  className="px-6 py-3.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold transition-all active:scale-95"
                 >
                   Skip
                 </button>
                 <button
                   disabled={isSubmitting}
                   onClick={handleOnboardingSubmit}
-                  className="px-8 py-5 rounded-[1.5rem] bg-emerald-600 hover:bg-emerald-700 text-white font-black shadow-xl shadow-emerald-200 transition-all hover:translate-y-[-2px] disabled:opacity-50 flex items-center justify-center gap-2"
+                  className="px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold shadow-lg shadow-emerald-200/60 transition-all hover:translate-y-[-1px] disabled:opacity-50 flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? (
                     <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />

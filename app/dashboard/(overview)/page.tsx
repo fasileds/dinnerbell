@@ -37,12 +37,12 @@ export default function Page() {
   const embedUrl = "https://www.youtube.com/embed/xjUw6_LyHT8";
 
   return (
-    <main className="p-4 md:p-8 space-y-8 animate-fadeIn">
+    <main className="space-y-6 animate-fadeIn">
       {/* Header Section */}
       <header className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-black text-slate-900 tracking-tight">Dashboard Overview</h1>
-          <p className="text-slate-500 font-medium">Welcome back, {session?.user?.name || "Partner"}! Here's how your ads are performing.</p>
+          <h1 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tight">Dashboard Overview</h1>
+          <p className="text-slate-500 font-medium text-sm md:text-base">Welcome back, {session?.user?.name || "Partner"}! Here's how your ads are performing.</p>
         </div>
         <div className="flex items-center gap-3">
           <button className="flex items-center gap-2 bg-white border border-slate-200 px-5 py-2.5 rounded-xl text-sm font-bold text-slate-600 hover:bg-slate-50 transition-all shadow-sm">
@@ -55,13 +55,13 @@ export default function Page() {
       </header>
 
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         
         {/* Left Section: Video & Performance */}
-        <div className="lg:col-span-8 space-y-8">
+        <div className="lg:col-span-8 space-y-6">
           
           {/* Video Player Card */}
-          <div className="bg-white rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-slate-100 overflow-hidden group">
+          <div className="bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-slate-100 overflow-hidden group">
             <div className="p-6 border-b border-slate-50 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-emerald-50 rounded-xl flex items-center justify-center">
@@ -85,34 +85,34 @@ export default function Page() {
 
           {/* Performance Stats Bento */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white rounded-[2rem] p-8 border border-slate-100 shadow-sm hover:shadow-md transition-all">
-              <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center mb-6">
+            <div className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition-all">
+              <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-4">
                 <FaEye className="text-blue-600 text-xl" />
               </div>
               <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-1">Total Impressions</p>
-              <h4 className="text-4xl font-black text-slate-900 tracking-tighter">1,284</h4>
+              <h4 className="text-3xl font-black text-slate-900 tracking-tighter">1,284</h4>
               <p className="text-emerald-500 text-xs font-bold mt-2 flex items-center gap-1">
                 <FaChartLine /> +12% this week
               </p>
             </div>
             
-            <div className="bg-white rounded-[2rem] p-8 border border-slate-100 shadow-sm hover:shadow-md transition-all">
-              <div className="w-12 h-12 bg-indigo-50 rounded-2xl flex items-center justify-center mb-6">
+            <div className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition-all">
+              <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center mb-4">
                 <FaMousePointer className="text-indigo-600 text-lg" />
               </div>
               <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-1">Total Clicks</p>
-              <h4 className="text-4xl font-black text-slate-900 tracking-tighter">420</h4>
+              <h4 className="text-3xl font-black text-slate-900 tracking-tighter">420</h4>
               <p className="text-emerald-500 text-xs font-bold mt-2 flex items-center gap-1">
                 <FaChartLine /> +5.4% this week
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-[2rem] p-8 shadow-xl text-white">
-              <div className="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center mb-6">
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-6 shadow-xl text-white">
+              <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mb-4">
                 <FaChartLine className="text-emerald-400 text-xl" />
               </div>
               <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-1">Conversion Rate</p>
-              <h4 className="text-4xl font-black text-white tracking-tighter">3.2%</h4>
+              <h4 className="text-3xl font-black text-white tracking-tighter">3.2%</h4>
               <button className="mt-6 w-full py-2 bg-emerald-600 hover:bg-emerald-500 rounded-xl text-xs font-black transition-all">
                 Optimize Ads
               </button>
@@ -120,8 +120,8 @@ export default function Page() {
           </div>
 
           {/* Revenue Chart */}
-          <div className="bg-white rounded-[2.5rem] p-8 border border-slate-100 shadow-sm">
-            <h3 className="text-xl font-black text-slate-900 tracking-tight mb-8">Revenue Analytics</h3>
+          <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm">
+            <h3 className="text-xl font-black text-slate-900 tracking-tight mb-6">Revenue Analytics</h3>
             <Suspense fallback={<RevenueChartSkeleton />}>
               <RevenueChart invoiceId={selectedInvoiceId} />
             </Suspense>
@@ -129,9 +129,9 @@ export default function Page() {
         </div>
 
         {/* Right Section: Activity */}
-        <div className="lg:col-span-4 space-y-8">
-          <div className="bg-white rounded-[2.5rem] p-8 border border-slate-100 shadow-sm min-h-[600px]">
-            <h3 className="text-xl font-black text-slate-900 tracking-tight mb-8">Recent Payments</h3>
+        <div className="lg:col-span-4 space-y-6">
+          <div className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm min-h-[600px]">
+            <h3 className="text-xl font-black text-slate-900 tracking-tight mb-6">Recent Payments</h3>
             <Suspense fallback={<LatestInvoicesSkeleton />}>
               <LatestInvoices onInvoiceSelect={setSelectedInvoiceId} />
             </Suspense>

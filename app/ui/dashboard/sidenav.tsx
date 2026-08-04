@@ -8,22 +8,22 @@ import { signOut } from "next-auth/react";
 
 export default function SideNav() {
   return (
-    <div className="flex h-full flex-col px-3 py-4 md:px-2 bg-white shadow-lg transition-all duration-300 hover:shadow-2xl">
+    <div className="flex h-full flex-col px-3 py-4 md:px-3 bg-white border-r border-slate-100 shadow-sm">
       <Link
-        className="mb-2 flex h-20 items-end justify-start rounded-lg bg-green-600 p-4 md:h-40"
+        className="mb-3 flex h-20 items-end justify-start rounded-xl bg-gradient-to-br from-emerald-600 to-teal-700 p-4 md:h-28 shadow-md shadow-emerald-200/50 hover:shadow-lg transition-shadow"
         href="/"
       >
-        <div className="w-32 text-white md:w-40">
+        <div className="w-32 text-white md:w-36">
           <AcmeLogo />
         </div>
       </Link>
-      <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
+      <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-1.5">
         <NavLinks />
 
-        <div className="hidden h-auto w-full grow rounded-lg bg-gray-50 md:block"></div>
+        <div className="hidden h-auto w-full grow rounded-xl md:block"></div>
         <button
           onClick={() => signOut({ callbackUrl: "/pages/login" })}
-          className="flex h-[48px] w-full grow items-center justify-center gap-2 rounded-lg bg-gray-200 p-3 text-sm font-medium hover:bg-green-600 hover:text-white md:flex-none md:justify-start md:p-2 md:px-3 transition duration-300"
+          className="flex h-11 w-full grow items-center justify-center gap-2 rounded-xl bg-slate-100 p-3 text-sm font-semibold text-slate-600 hover:bg-emerald-600 hover:text-white md:flex-none md:justify-start md:p-2 md:px-3 transition-colors duration-200"
         >
           <PowerIcon className="w-6" />
           <span className="hidden md:block">Sign Out</span>
